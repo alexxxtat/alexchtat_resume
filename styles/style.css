@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+img.background {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 50vw;
+  height: 120vh;
+  top: -10vw;
+}
+
+.active {
+  color: chocolate;
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding: 1.5rem;
+}
+
+header nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section.left {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+  padding: 1.5rem;
+}
+
+main section.left h1 {
+  color: chocolate;
+  font-size: 3rem;
+}
+
+main section.left p {
+  font-size: 1.75rem;
+  padding: 2rem 0rem;
+}
+
+main section.right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 800px;
+          flex: 1 1 800px;
+}
+
+main section.right img {
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 20vh;
+  right: 18vw;
+}
+
+footer a {
+  padding: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
