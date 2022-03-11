@@ -124,8 +124,17 @@ section.resumeRight table tr:hover {
   transition: all 0.2s ease;
 }
 
+footer {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 footer a {
-  padding: 1rem;
+  padding: 3rem;
 }
 
 @media screen and (max-width: 1300px) {

@@ -101,8 +101,11 @@ section.resumeRight {
   }
 }
 footer {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
   a {
-    padding: 1rem;
+    padding: 3rem;
   }
 }
 
