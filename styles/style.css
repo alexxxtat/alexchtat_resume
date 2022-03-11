@@ -92,6 +92,38 @@ main section.right img {
   right: 18vw;
 }
 
+section.resumeRight {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
+  padding: 2rem;
+}
+
+section.resumeRight table {
+  border-collapse: collapse;
+}
+
+section.resumeRight table tr {
+  margin: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+section.resumeRight table tr td {
+  padding: 1.5rem;
+}
+
+section.resumeRight table tr td.RowTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: chocolate;
+}
+
+section.resumeRight table tr:hover {
+  background-color: blanchedalmond;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
 footer a {
   padding: 1rem;
 }

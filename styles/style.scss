@@ -76,6 +76,30 @@ main {
     }
   }
 }
+
+section.resumeRight {
+  flex: 3 1 500px;
+  padding: 2rem;
+  table {
+    border-collapse: collapse;
+    tr {
+      margin: 1rem;
+      border-bottom: 1px solid gray;
+      td {
+        padding: 1.5rem;
+      }
+      td.RowTitle {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: chocolate;
+      }
+      &:hover {
+        background-color: blanchedalmond;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}
 footer {
   a {
     padding: 1rem;
